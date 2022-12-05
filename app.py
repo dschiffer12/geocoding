@@ -1,21 +1,19 @@
 import time 
 import base64
-
 import streamlit as st
 import pandas as pd 
-import geopandas as gpd 
+import geopandas as gpd
 import numpy as np
-
+import matplotlib 
 import geopy
-
 from geopy.geocoders import Nominatim
 from geopy.extra.rate_limiter import RateLimiter
 
 import matplotlib.pyplot as plt
 import plotly_express as px 
 
-st.title("Geocoding Application in Python")
-st.markdown("Uppload a CSV File with address columns (Street name & number, Postcode, City)")
+st.title("ViP Inc. Bulk Geocoding Application")
+st.markdown("Upload a CSV File with address columns (Street name & number, Postcode, City)")
 
 
 
