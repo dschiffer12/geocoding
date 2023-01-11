@@ -6,5 +6,8 @@ folium==0.9.1
 plotly_express==0.4.1
 streamlit==0.82.0
 PIL==8.3.1
-Pylance
+OpenCV==
+numpy==
+scipy==1.7.1
+
 ```
